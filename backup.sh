@@ -1,4 +1,4 @@
-#!/usr/local/bin/fish
+#!/bin/bash
 
 cp ~/.spacemacs ./config/spacemacs
 cp ~/.config/fish/config.fish ./config/config.fish
