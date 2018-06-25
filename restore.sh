@@ -8,4 +8,5 @@ cp ./config/init.toml ~/.SpaceVim.d/init.toml
 
 if [ "$1" = "docker" ]; then
   sed -i 's/127.0.0.1/host.docker.internal/g' ~/.config/fish/config.fish
+  sed -e '4d' ~/.config/fish/config.fish
 fi
