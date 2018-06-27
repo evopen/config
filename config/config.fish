@@ -8,6 +8,7 @@ export GPG_TTY=(tty)
 
 if not test -n "$TMUX"
     source ~/.profile
+    tmux a; or tmux
 end
 
 # emacs ansi-term support
