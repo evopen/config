@@ -3,6 +3,7 @@
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 
 mkdir -p ~/.config/fish
+mkdir ~/.SpaceVim.d/
 cp $DIR/config/spacemacs ~/.spacemacs
 cp $DIR/config/config.fish ~/.config/fish/config.fish
 cp $DIR/config/profile ~/.profile
