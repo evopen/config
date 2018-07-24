@@ -1,5 +1,6 @@
 #!/bin/sh
 
+mkdir -p ~/.config/fish
 cp ./config/spacemacs ~/.spacemacs
 cp ./config/config.fish ~/.config/fish/config.fish
 cp ./config/profile ~/.profile
